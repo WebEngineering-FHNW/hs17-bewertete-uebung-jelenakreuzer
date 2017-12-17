@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Webseite</title>
-    <link rel="stylesheet" href="../../assets/stylesheets/ChaesiMuri/Contact.css" type="text/css" />
+    <link rel="stylesheet" href="../../assets/stylesheets/ChaesiMuri/FirstPage.css" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
 </head>
 <body>
@@ -13,7 +13,7 @@
        </ul>       
    </section>
    <header>
-    <h1 id="logo"><a href="Chäsi Muri"><img src="images/logo2_neu.png" alt="logo"/></a></h1>
+    <h1 id="logo"><a href="ChäsiMuri"><img  class="circle" src="../../assets/images/ChaesiMuri/logo2_neu.png" alt="logo"/></a></h1>
     
     
     
@@ -30,7 +30,15 @@
         
     </nav>
     <section id="main">
- 
+    <article>
+    <h2>Title 1</h2>
+    <p>fdsajkfljasdladsj
+    fsjadfjads
+    fjas
+    dfjads
+    jf
+    </p>
+    </article>
         
         
     </section>

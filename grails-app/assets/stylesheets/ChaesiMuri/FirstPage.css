@@ -153,7 +153,7 @@ nav ul li a.active {
 
 #main article {
     display:block;
-    width:100%
+    width:100%;
     background:#FFFFFF;
     margin:0em;
     padding:0.5em;
@@ -162,7 +162,6 @@ nav ul li a.active {
 
 #main article img {
     box-shadow:0px 0px 10px -5p #4C4948;
-    border-radius: 5px; /*Abrundung der Ecken*/
     
 }
 
