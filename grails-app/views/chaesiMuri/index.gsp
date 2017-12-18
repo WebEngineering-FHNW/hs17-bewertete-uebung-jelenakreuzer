@@ -13,7 +13,7 @@
        </ul>       
    </section>
    <header>
-    <h1 id="logo"><a href="ChäsiMuri"><img src="/assets/logo2_neu.png" alt="logo"/></a></h1>
+    <h1 id="logo"><a href="index"><img src="/assets/logo2_neu.png" alt="logo"/></a></h1>
     
     
     
@@ -21,21 +21,35 @@
    </header> 
     <nav class="nav">
         <ul>
-            <li><a href="index.gsp" class="active">Über uns</a></li>
-            <li><a href="index.gsp">Aktuelles</a></li> 
-            <li><a href="index.gsp">Unsere Angebote</a></li>
-            <li><a href="index.gsp">Unsere Produzenten</a></li>
-            <li><a href="Onlineshop.gsp">Onlineshop</a></li>                                                            
+            <li><a href="index" class="active">Über uns</a></li>
+            <li><a href="index">Aktuelles</a></li> 
+            <li><a href="index">Unsere Angebote</a></li>
+            <li><a href="index">Unsere Produzenten</a></li>
+            <li><a href="chaesiMuri/Kontakt">Kontakt</a></li>   
+            <li><a href="${createLink(uri:'/views/chaesiMuri/Kontakt.gsp')}">GM</a></li>
+            <li><a href="${createLink(uri:'/somepath/gm.gsp')}">GM</a></li>
         </ul>
         
+        
+        
     </nav>
-    <section id="main">
+   <section id="main">
+   
+   <div>
+  <label for='${name}'>${label}</label>
+  <input type="number decimal" name="${name}" value="${model.getProperty(name)}"
+         required="true" min="1.0" max="6.0" id="${name}"
+  />
+  <output>${model.getProperty(conversion)}</output>
+</div>
+    
+        <img src="/assets/Laden.jpg" alt="Bild Laden von innen" class="BildCenter"/>
+        
         <article>
-            <img src="/assets/Laden.jpg" alt="Bild Laden von innen">
+           <h2>Herzlich willkommen auf der neuen Homepage der Chäsi Muri!</h2>
         </article>    
         <article>
         <h2>Neue Führung per 1. März 2018</h2>
-        
             <p>
                 Auf Lisbeth Hoppler, die das Geschäft zehn Jahre geführt hat und in den Ruhestand geht, folgt Désirée Frei als neue Geschäftsführerin. Für die Chäsi Muri wurde zudem eine eigene Aktiengesellschaft gegründet, bei der die bisherige Besitzerin, die Käsereigenossenschaft Muri-Wey, nur noch zu 50 Prozent beteiligt ist. Désirée Frei und ihr Lebenspartner, Andy Kreuzer, beide wohnhaft in Dättwil, beteiligen sich selber als Aktionäre zu 50 Prozent an der Gesellschaft. Markus Dürrenmatt ist neu Präsident des Verwaltungsrates der Chäsi Muri AG.
                 
