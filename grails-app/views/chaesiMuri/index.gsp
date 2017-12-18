@@ -13,7 +13,7 @@
        </ul>       
    </section>
    <header>
-    <h1 id="logo"><a href="ChäsiMuri"><img src="../../assets/images/ChaesiMuri/logo2_neu.png" alt="logo"/></a></h1>
+    <h1 id="logo"><a href="ChäsiMuri"><img src="/assets/logo2_neu.png" alt="logo"/></a></h1>
     
     
     
@@ -31,7 +31,7 @@
     </nav>
     <section id="main">
         <article>
-            <img src="../../assets/images/ChaesiMuri/bild2.jpg" alt="Bild Laden von innen">
+            <img src="/assets/Laden.jpg" alt="Bild Laden von innen">
         </article>    
         <article>
         <h2>Neue Führung per 1. März 2018</h2>
