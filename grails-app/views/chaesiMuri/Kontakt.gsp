@@ -23,10 +23,11 @@
     <nav class="nav">
         <ul>
             <li><a href="index">Über uns</a></li>
-            <li><a href="index">Aktuelles</a></li> 
+            <li><a href="Aktuelles">Aktuelles</a></li> 
             <li><a href="index">Unsere Angebote</a></li>
             <li><a href="index">Unsere Produzenten</a></li>
-            <li><a href="chaesiMuri/Kontakt" class="active">Kontakt</a></li>                                                            
+            <li><a href="chaesiMuri/Kontakt" class="active">Kontakt</a></li>      
+            <li><a href="chaesiMuri/Beschreibung" class="active">Beschreibung WEBEC</a></li>    
         </ul>   
         
         

@@ -8,6 +8,7 @@ body {
     font-size:100%;
     margin:0em;
     padding:0em; 
+    min-height: 100%;
     
     /*EM = Groesse Elternelement. Wenn font-size von Body angepasst wird, wird auch Grosse von allen ems angepasst!! */
 
@@ -187,6 +188,7 @@ nav ul li a.active {
     max-width:980px;
     margin:1.25em auto; /*auto = linke Seite automatisch */
     padding:0em;
+    padding-bottom:35px; /* Höhe des Footers */
 }
 
 #main article {
@@ -226,7 +228,7 @@ nav ul li a.active {
 
 /*Formatierung für Produzenten Bereich -> Bild links, Text dazu rechts daneben*/
 
- #flex-container {
+ #main flex-container {
    display: -webkit-flex;
    display: -ms-flex;
    display: flex;     
@@ -501,13 +503,16 @@ footer{
     display:block;
     background:#2F2C2C;
     text-align:center;
+    
+    height:35px;
+    margin-top: -35px; /* Höhe des Footers */
 }
 
 footer ul {
     display:block;
     width:100%;
     max-width:980px;
-    text-align:left;
+    max-height:35em;
     margin:0px auto;
 }
 
@@ -540,22 +545,63 @@ footer ul li a {
 @media screen and (max-width:800px) {
 
     .ProduzentenBild img{
-    height: 20em;
-    width: auto;
+    height: 17em;
+    width: 26em;
     }
         
+    .ProduzentenText {
+    display: -webkit-flex; 
+    display: -ms-flexbox; 
+    display: block;
+    height: 400px;
+    width: 50%;
+    height: 17em;
+    float: right;
+    padding:1.5em;
+    background:#FFFFFF;
+    }
+
+
+.ProduzentenBild {
   display: -webkit-flex; 
   display: -ms-flexbox; 
-  display: block;
-  height: 400px;
+  display: flex;
   width: 50%;
-  height: 20em;
-  float: right;
-  padding:1.5em;
-  background:#FFFFFF;
+  float: left;
 }
 
+@media screen and (max-width:725px) {
+    
+     .ProduzentenBild img{
+    height: auto;
+    width: 50em;
+         
+    }
+        
+    .ProduzentenText { 
+    display: block;
+    height: 400px;
+    width: 100%;
+    height: 17em;
+    padding:1.5em;
+    background:#FFFFFF;
+    min-height:200px;
+    }
 
+
+    .ProduzentenBild {
+    display: block;
+    width: 100%;
+    height: auto;
+}   
+    
+    #flex-container { 
+   font-family:Roboto;
+   display:block; 
+   background:#FFFFFF;
+}
+    
+}
 
 
 @media screen and (max-width:600px) {
@@ -564,12 +610,13 @@ footer ul li a {
         display:block;
         margin:0.625em 0em 0.625em 0em;
     }
-}
-
-@media screen and (max-width:550px) {
-    body {
-        font-size:86%;
+    
+        body {
+        font-size:75%;
     }
+}
+    
+ @media screen and (max-width:570px) {   
     #menubar ul li a.menubutton {
         display:block;
     }
@@ -581,4 +628,55 @@ footer ul li a {
         display:block;
         margin:0.3em 0em 0.3em 0em;
     }
-}
+    }
+    
+    
+     @media screen and (max-width:340px) {   
+    .ProduzentenText { 
+    display: block;
+    height: 400px;
+    width: 100%;
+    height: 20em;
+    padding:1.5em;
+    background:#FFFFFF;
+    min-height:200px;
+    }
+    }
+    
+    @media screen and (max-width:275px) {   
+    .ProduzentenText { 
+    display: block;
+    height: 400px;
+    width: 100%;
+    height: 21em;
+    padding:1.5em;
+    background:#FFFFFF;
+    min-height:200px;
+    }
+    }
+    
+    @media screen and (max-width:250px) {   
+    .ProduzentenText { 
+    display: block;
+    height: 400px;
+    width: 100%;
+    height: 25em;
+    padding:1.5em;
+    background:#FFFFFF;
+    min-height:200px;
+    }
+    }
+    
+    @media screen and (max-width:250px) {   
+    .ProduzentenText { 
+    display: block;
+    height: 400px;
+    width: 100%;
+    height: 26em;
+    padding:1.5em;
+    background:#FFFFFF;
+    min-height:200px;
+    }
+    }
+    
+

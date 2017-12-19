@@ -18,6 +18,19 @@ class ChaesiMuriController {
         }
     }
     
+        def Aktuelles(){
+        withFormat{
+            html{
+                render(view: 'Aktuelles')}          
+        }
+    }
+        def Beschreibung(){
+        withFormat{
+            html{
+                render(view: 'Beschreibung')}          
+        }
+    }
+    
 
     
 }

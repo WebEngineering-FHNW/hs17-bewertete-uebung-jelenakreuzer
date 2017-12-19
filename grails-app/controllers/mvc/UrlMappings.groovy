@@ -11,7 +11,9 @@ class UrlMappings {
         }
         "/"(view:"/index")
         "/chaesiMuri/Kontakt"(view:"/chaesiMuri/Kontakt")
+        "/chaesiMuri/Aktuelles"(view:"/chaesiMuri/Aktuelles")
         "/chaesiMuri/Produzenten"(view:"/chaesiMuri/Produzenten")
+        "/chaesiMuri/Beschreibung"(view:"/chaesiMuri/Beschreibung")
         "500"(view:'/error')
         "404"(view:'/notFound')
     }

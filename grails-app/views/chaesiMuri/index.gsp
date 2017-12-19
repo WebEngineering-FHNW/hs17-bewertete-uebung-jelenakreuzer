@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Webseite</title>
     <link rel="stylesheet" href="/assets/FirstPage.css" type="text/css" />
-    <link rel="shortcut icon" type="image/png" src="/assets/logo.png" href="/assets/logo.png">
+    <link rel="shortcut icon" type="image/png" href="/assets/logo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
 </head>
 <body>
@@ -23,11 +23,10 @@
     <nav class="nav">
         <ul>
             <li><a href="index" class="active">Über uns</a></li>
-            <li><a href="index">Aktuelles</a></li> 
-            <li><a href="index">Unsere Angebote</a></li>
+            <li><a href="Aktuelles">Aktuelles</a></li> 
             <li><a href="Produzenten">Unsere Produzenten</a></li>
             <li><a href="Kontakt">Kontakt</a></li>           
-            
+            <li><a href="chaesiMuri/Beschreibung">Beschreibung WEBEC</a></li>               
 
         </ul>
         
