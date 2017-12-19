@@ -49,6 +49,11 @@ p {
     text-align:justify; /*Blocksatz*/
 }
 
+p.Fett{
+    font-weight: bold
+    
+}
+
 p.Beschreibung {
     line-height:1.25em;
     font-family:Georgia;
@@ -178,7 +183,7 @@ nav ul li a.active {
 /* content area */
 #main {
     display:block;
-    width:96%;
+    width:90%;
     max-width:980px;
     margin:1.25em auto; /*auto = linke Seite automatisch */
     padding:0em;
@@ -519,11 +524,40 @@ footer ul li a {
 }
 
 /* Mobile Style */
-@media screen and (max-width:800px) {
+@media screen and (max-width:1000px) {
     body {
         font-size:90%;
-    }
+    } 
+
 }
+
+@media screen and (max-width:900px) {
+    body {
+        font-size:80%;
+    }  
+}
+
+@media screen and (max-width:800px) {
+
+    .ProduzentenBild img{
+    height: 20em;
+    width: auto;
+    }
+        
+  display: -webkit-flex; 
+  display: -ms-flexbox; 
+  display: block;
+  height: 400px;
+  width: 50%;
+  height: 20em;
+  float: right;
+  padding:1.5em;
+  background:#FFFFFF;
+}
+
+
+
+
 @media screen and (max-width:600px) {
     #main aside, #main article {
         width:100%;

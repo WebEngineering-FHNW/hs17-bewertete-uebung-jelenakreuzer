@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Webseite</title>
     <link rel="stylesheet" href="/assets/FirstPage.css" type="text/css" />
-    <link rel="shortcut icon" type="image/png" src="/assets/logo.png" href="/assets/logo.png">
+    <link rel="shortcut icon" type="image/png" href="/assets/logo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
 </head>
 <body>
@@ -52,12 +52,15 @@
         
     <div class="ProduzentenText">
        <h2>Walter Meier aus Muri </h2> 
-       <p>Walter Meier aus Muri liefert uns schon seit vielen Jahren diverse Produkte von seinen Braun Swiss Kühen. Auf seinem Hof wird die Milch selber noch verarbeitet und direkt vermarktet. Auch die Chäsi Muri kommt in den Genuss seiner Produkte.</p>
-       <p>
+       <p>Walter Meier aus Muri liefert uns schon seit vielen Jahren diverse Produkte von seinen Braun Swiss Kühen. Auf seinem Hof wird die Milch selber noch verarbeitet und direkt vermarktet. Auch die Chäsi Muri kommt in den Genuss seiner Produkte.</p><br>
+       <p class="Fett">Produkte:</p>
+       <p>- Rohmilchkäse</p>
+        <p>- Joghurt</p>
 
     </div>    
-  </div>
+  </div> 
 
+  
     
 
     </section>
