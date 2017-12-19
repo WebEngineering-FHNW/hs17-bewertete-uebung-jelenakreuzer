@@ -31,14 +31,7 @@
         
     </nav>
     <section id="main">
-    
-<div>
-  <label for='${name}'>${label}</label>
-  <input type="number decimal" name="${name}" value="${model.getProperty(name)}"
-         required="true" min="1.0" max="6.0" id="${name}"
-  />
-  <output>${model.getProperty(conversion)}</output>
-</div>
+  
      
      
     </section>

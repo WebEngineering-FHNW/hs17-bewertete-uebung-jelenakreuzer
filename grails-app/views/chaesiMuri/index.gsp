@@ -25,9 +25,9 @@
             <li><a href="index">Aktuelles</a></li> 
             <li><a href="index">Unsere Angebote</a></li>
             <li><a href="index">Unsere Produzenten</a></li>
-            <li><a href="chaesiMuri/Kontakt">Kontakt</a></li>   
-            <li><a href="${createLink(uri:'/views/chaesiMuri/Kontakt.gsp')}">GM</a></li>
-            <li><a href="${createLink(uri:'/somepath/gm.gsp')}">GM</a></li>
+             <li><a href="Kontakt">Kontakt</a></li>           
+            
+
         </ul>
         
         
@@ -35,13 +35,7 @@
     </nav>
    <section id="main">
    
-   <div>
-  <label for='${name}'>${label}</label>
-  <input type="number decimal" name="${name}" value="${model.getProperty(name)}"
-         required="true" min="1.0" max="6.0" id="${name}"
-  />
-  <output>${model.getProperty(conversion)}</output>
-</div>
+
     
         <img src="/assets/Laden.jpg" alt="Bild Laden von innen" class="BildCenter"/>
         
