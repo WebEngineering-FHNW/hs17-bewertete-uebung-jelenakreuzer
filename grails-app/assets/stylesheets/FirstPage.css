@@ -1,5 +1,7 @@
 ﻿/*EXTERNAL: Youtube-Tutorial: "HTML5/CSS3 Tutorial: Responsive Webdesign erstellen // deutsch" https://www.youtube.com/watch?v=dVYdOSSJ_Tk */ 
 
+* { box-sizing:border-box; }
+
 /* Genereller Style */
 body {
     background:#DCDCDC;
@@ -10,6 +12,7 @@ body {
     /*EM = Groesse Elternelement. Wenn font-size von Body angepasst wird, wird auch Grosse von allen ems angepasst!! */
 
 }
+
 
 h1 {
     font-size:2.5em;
@@ -29,6 +32,10 @@ h2 {
     margin:0em; /* äusserer Abstand */
     padding:1.25em; /* innerer Abstand */
     text-align:left;
+}
+
+h2.H2Center{
+    text-align:center;
 }
 
 p {
@@ -195,6 +202,120 @@ nav ul li a.active {
 
 #main aside section ul {
     padding:0em 1.875em 1.25em 2.5em;
+}
+
+/* Kontakt Formular*/  
+/* EXTERNAL: Google Material Design von https://codepen.io/sevilayha/pen/IdGKH, eigene Änderungen vorgenommen, damit es in mein CSS passt. Valid und Invalid habe ich selber noch ergänzt */
+.container 		{ 
+  font-family:Roboto;
+  width:600px; 
+  margin:30px auto 0; 
+  display:block; 
+  background:#FFFFFF;
+  padding:10px 50px 50px;
+}
+
+h2.Contact { 
+  text-align:center; 
+  margin-bottom:50px; 
+}
+
+h2 small { 
+  font-weight:normal; 
+  color:#888; 
+  display:block; 
+}
+
+.group 			  { 
+  position:relative; 
+  margin-bottom:45px; 
+}
+input 				{
+  font-size:18px;
+  padding:10px 10px 10px 5px;
+  display:block;
+  width:300px;
+  border:none;
+  border-bottom:1px solid #757575;
+}
+input:focus 		{ outline:none; }
+
+/* LABEL ======================================= */
+label 				 {
+  color:#999; 
+  font-size:18px;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:5px;
+  top:10px;
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+
+/* active state */
+input:focus ~ label, input:valid ~ label 		{
+  top:-20px;
+  font-size:14px;
+  color:#006400;
+}
+
+/* BOTTOM BARS */
+.bar 	{ position:relative; display:block; width:300px; }
+.bar:before, .bar:after 	{
+  content:'';
+  height:2px; 
+  width:0;
+  bottom:1px; 
+  position:absolute;
+  background:#006400; 
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+.bar:before {
+  left:50%;
+}
+.bar:after {
+  right:50%; 
+}
+
+/* active state */
+input:focus ~ .bar:before, input:focus ~ .bar:after {
+  width:50%;
+}
+
+/* HIGHLIGHTER */
+.highlight {
+  position:absolute;
+  height:60%; 
+  width:100px; 
+  top:25%; 
+  left:0;
+  pointer-events:none;
+  opacity:0.5;
+}
+
+/* active state */
+input:focus ~ .highlight {
+  -webkit-animation:inputHighlighter 0.3s ease;
+  -moz-animation:inputHighlighter 0.3s ease;
+  animation:inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS */
+@-webkit-keyframes inputHighlighter {
+	from { background:#006400; }
+  to 	{ width:0; background:transparent; }
+}
+@-moz-keyframes inputHighlighter {
+	from { background:#006400; }
+  to 	{ width:0; background:transparent; }
+}
+@keyframes inputHighlighter {
+	from { background:#006400; }
+  to 	{ width:0; background:transparent; }
 }
 
 

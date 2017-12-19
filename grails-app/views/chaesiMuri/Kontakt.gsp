@@ -32,7 +32,50 @@
         
     </nav>
     <section id="main">
+
+        
+ <div class="container">
+  
+  <h2>Kontaktformular</h2>
+  
+  <form>
     
+    <div class="group">      
+      <input type="text" minlength="2" required>
+      <span class="highlight"></span>
+      <span class="bar"></span>
+      <label>Vorname</label>
+    </div>
+
+    <div class="group">      
+      <input type="text" minlength="2" required>
+      <span class="highlight"></span>
+      <span class="bar"></span>
+      <label>Nachname</label>
+    </div>
+    
+    <div class="group">      
+      <input type="mail" required>
+      <span class="highlight"></span>
+      <span class="bar"></span>
+      <label>E-Mail Adresse</label>
+    </div>
+    
+    <div class="group">      
+      <input type="text" required>
+      <span class="highlight"></span>
+      <span class="bar"></span>
+      <label>Ihre Nachricht</label>
+    </div>
+   
+    
+  </form>
+</p>
+  
+</div>
+        
+        
+        
      
      
     </section>
