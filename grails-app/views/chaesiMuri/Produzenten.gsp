@@ -25,7 +25,7 @@
             <li><a href="index">Über uns</a></li>
             <li><a href="index">Aktuelles</a></li> 
             <li><a href="index">Unsere Angebote</a></li>
-            <li><a href="index" class="active">Unsere Produzenten</a></li>
+            <li><a href="Produzenten" class="active">Unsere Produzenten</a></li>
              <li><a href="Kontakt">Kontakt</a></li>  
         </ul>  
     </nav>
@@ -41,22 +41,25 @@
                
             </p>
     </article>
+    
+    
+    <br>
+
+<div id="flex-container">  
+    <div class="ProduzentenBild">
+        <img src="/assets/Produzent1.jpg" alt="logo"/>
+    </div>
+        
+    <div class="ProduzentenText">
+       <h2>Walter Meier aus Muri </h2> 
+       <p>Walter Meier aus Muri liefert uns schon seit vielen Jahren diverse Produkte von seinen Braun Swiss Kühen. Auf seinem Hof wird die Milch selber noch verarbeitet und direkt vermarktet. Auch die Chäsi Muri kommt in den Genuss seiner Produkte.</p>
+       <p>
+
+    </div>    
+  </div>
 
     
-    <div class="container">
-     
-    <img src="/assets/Produzent1.jpg" alt="Produzent1" class="Produzenten"/>
 
-    
-    <div class="nebeneinander">      
-            <h2><small>Walter Meier, Niederwil AG</small></h2>
-            <p>Lieferung folgender Produkte: <br>
-            - a <br>
-            - b <br>
-            </p>
-            </div>
-
-        </article>
     </section>
     
     

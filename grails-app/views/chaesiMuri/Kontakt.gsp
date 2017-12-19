@@ -68,7 +68,7 @@
       <label>Ihre Nachricht <img class="Vorname" src="/assets/haken.png" alt="Haken"/></label>
     </div>
    
-       <button class="btn waves-effect waves-light" type="submit" name="action">Submit </Button>
+       <button class="btn waves-effect waves-light" type="submit" name="action">Absenden</Button>
   </form>
 
 </div>
