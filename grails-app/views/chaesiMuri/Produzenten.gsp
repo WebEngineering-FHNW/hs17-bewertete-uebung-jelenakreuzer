@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Webseite</title>
     <link rel="stylesheet" href="/assets/FirstPage.css" type="text/css" />
-    <link rel="shortcut icon" type="image/png" img src="/assets/logo.png" href="/assets/logo.png">
+    <link rel="shortcut icon" type="image/png" href="/assets/logo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
 </head>
 <body>
@@ -25,22 +25,36 @@
             <li><a href="index">Über uns</a></li>
             <li><a href="index">Aktuelles</a></li> 
             <li><a href="index">Unsere Angebote</a></li>
-            <li><a href="index" class="active">Unsere Produzenten</a></li>
+            <li><a href="Produzenten" class="active">Unsere Produzenten</a></li>
              <li><a href="Kontakt">Kontakt</a></li>  
         </ul>  
     </nav>
     
    <section id="main">   
-    
-        <article>
-            <h2>Unsere Produzenten</h2>
-            <p>
+    <article>
+      <h2>Unsere Produzenten</h2>
+                <p>
                Ganz nach unserem Motto "regional, saisonal" werden wir von unseren Produzenten beliefert. Wir legen grossen Wert darauf, das wir mit Produzenten aus der Region zusammenarbeiten und uns gegenseitig unterstützen.
                
                Hier möchten wir Ihnen mit Stolz unsere Produzenten vorstellen:
                
             </p>
-        </article>
+    </article>
+    
+    
+    
+    <div class="container">
+  
+    <div class="nebeneinander">      
+            <h2><small>Walter Meier, Niederwil AG</small></h2>
+            <p>Lieferung folgender Produkte:</p>
+            </div>
+            
+    <div class="nebeneinander">      
+            <h2><small>Walter Meier, Niederwil AG</small></h2>
+            <p>Lieferung folgender Produkte:</p>
+            </div>
+            </div>
     </section>
     
     
