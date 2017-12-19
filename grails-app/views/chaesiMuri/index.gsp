@@ -39,18 +39,11 @@
 
     
         <img src="/assets/Laden.jpg" alt="Bild Laden von innen" class="BildCenter"/>
-        
+        <br>
         <article>
            <h2>Herzlich willkommen auf der neuen Homepage der Chäsi Muri!</h2>
         </article>    
-        <article>
-        <h2>Neue Führung per 1. März 2018</h2>
-            <p>
-                Auf Lisbeth Hoppler, die das Geschäft zehn Jahre geführt hat und in den Ruhestand geht, folgt Désirée Frei als neue Geschäftsführerin. Für die Chäsi Muri wurde zudem eine eigene Aktiengesellschaft gegründet, bei der die bisherige Besitzerin, die Käsereigenossenschaft Muri-Wey, nur noch zu 50 Prozent beteiligt ist. Désirée Frei und ihr Lebenspartner, Andy Kreuzer, beide wohnhaft in Dättwil, beteiligen sich selber als Aktionäre zu 50 Prozent an der Gesellschaft. Markus Dürrenmatt ist neu Präsident des Verwaltungsrates der Chäsi Muri AG.
-                
-                Die Chäsi Muri bleibt trotz der Änderungen ohne Unterbruch geöffnet. Sie wird bis am Samstag, 24. Februar, von Lisbeth Hoppler geführt und am Dienstag, 27. Februar, zu normalen Öffnungszeiten als Chäsi Muri AG wieder eröffnet. Obwohl in diesen zwei Tagen im Laden einiges los sein wird, werde es zu keinem Betriebsunterbruch kommen.
-            </p>
-        </article>
+
     </section>
     
     

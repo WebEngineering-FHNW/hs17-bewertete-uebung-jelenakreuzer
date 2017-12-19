@@ -40,21 +40,22 @@
                
             </p>
     </article>
+    </article>
     
     
+    <img src="/assets/Produzent1.jpg" alt="Produzent1" class="Produzenten"/>
     
     <div class="container">
   
+    
     <div class="nebeneinander">      
             <h2><small>Walter Meier, Niederwil AG</small></h2>
-            <p>Lieferung folgender Produkte:</p>
+            <p>Lieferung folgender Produkte: <br>
+            - a <br>
+            - b <br>
+            </p>
             </div>
-            
-    <div class="nebeneinander">      
-            <h2><small>Walter Meier, Niederwil AG</small></h2>
-            <p>Lieferung folgender Produkte:</p>
-            </div>
-            </div>
+
     </section>
     
     
