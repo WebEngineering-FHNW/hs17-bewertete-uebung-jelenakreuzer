@@ -7,8 +7,18 @@ class ChaesiMuriController {
     def Kontakt(){
         withFormat{
             html{
-                render(view: 'Kontakt')
-            }
+                render(view: 'Kontakt')}
+          
+        }
+    }
+    
+       def Produzenten(){
+        withFormat{
+            html{
+                render(view: 'Produzenten')}
+            json { 
+                render exception as JSON
+            }            
         }
     }
     

@@ -9,7 +9,7 @@
 <body>
    <section id="menubar">
        <ul>
-           <li><a class="menubutton" href="#menu"><img src="images/menu.png" alt = "Menubutton" /></a></li>           
+           <li><a class="menubutton" href="#menu"><img src="/assets/menu.png" alt = "Menubutton" /></a></li>           
        </ul>       
    </section>
    <header>
@@ -24,8 +24,8 @@
             <li><a href="index" class="active">Über uns</a></li>
             <li><a href="index">Aktuelles</a></li> 
             <li><a href="index">Unsere Angebote</a></li>
-            <li><a href="index">Unsere Produzenten</a></li>
-             <li><a href="Kontakt">Kontakt</a></li>           
+            <li><a href="Produzenten">Unsere Produzenten</a></li>
+            <li><a href="Kontakt">Kontakt</a></li>           
             
 
         </ul>

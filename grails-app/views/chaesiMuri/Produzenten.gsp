@@ -24,16 +24,19 @@
             <li><a href="index">Über uns</a></li>
             <li><a href="index">Aktuelles</a></li> 
             <li><a href="index">Unsere Angebote</a></li>
-            <li><a href="index">Unsere Produzenten</a></li>
-            <li><a href="chaesiMuri/Kontakt" class="active">Kontakt</a></li>                                                            
-        </ul>   
-        
-        
+            <li><a href="index" class="active">Unsere Produzenten</a></li>
+             <li><a href="Kontakt">Kontakt</a></li>  
+        </ul>  
     </nav>
-    <section id="main">
-  
-     
-     
+    
+   <section id="main">   
+    
+        <article>
+            <h2>Unsere Produzenten</h2>
+            <p>
+               Ganz nach unserem Motto "regional, saisonal" werden wir von unseren Produzenten beliefert. Wir legen grossen Wert darauf, das wir mit Produzenten aus der Region zusammenarbeiten und uns gegenseitig unterstützen.
+            </p>
+        </article>
     </section>
     
     
