@@ -11,17 +11,17 @@ class ChaesiMuriController {
         }
     }
     
-       def Aktuelles(){
+       def Produzenten(){
         withFormat{
             html{
-                render(view: 'Aktuelles')}          
+                render(view: 'Produzenten')}          
         }
     }
     
-        def Produzenten(){
+        def Kontakt(){
         withFormat{
             html{
-                render(view: 'Produzenten')}            
+                render(view: 'Kontakt')}            
         }
     }
     

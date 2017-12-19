@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Webseite</title>
     <link rel="stylesheet" href="/assets/FirstPage.css" type="text/css" />
-    <link rel="shortcut icon" type="image/png" href="/assets/logo.png">
+    <link rel="shortcut icon" type="image/png" img src="/assets/logo.png" href="/assets/logo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
 </head>
 <body>
@@ -44,34 +44,33 @@
       <input type="text" minlength="2" required>
       <span class="highlight"></span>
       <span class="bar"></span>
-      <label>Vorname <img class="Vorname" src="/assets/haken.png" alt="Haken"/></label>      
+      <label>Vorname <img class="Vorname" img src="/assets/haken.png" alt="Haken"/></label>      
     </div>    
 
     <div class="group">      
       <input type="text" minlength="2" required>
       <span class="highlight"></span>
       <span class="bar"></span>
-      <label>Nachname <img class="Vorname" src="/assets/haken.png" alt="Haken"/></label>
+      <label>Nachname <img class="Vorname" img src="/assets/haken.png" alt="Haken"/></label>
     </div>
     
     <div class="group">      
       <input type="email" required>
       <span class="highlight"></span>
       <span class="bar"></span>
-      <label>E-Mail Adresse <img class="Vorname" src="/assets/haken.png" alt="Haken"/></label>
+      <label>E-Mail Adresse <img class="Vorname" img src="/assets/haken.png" alt="Haken"/></label>
     </div>
     
     <div class="group">      
       <input type="text" required>
       <span class="highlight"></span>
       <span class="bar"></span>
-      <label>Ihre Nachricht <img class="Vorname" src="/assets/haken.png" alt="Haken"/></label>
+      <label>Ihre Nachricht <img class="Vorname" img src="/assets/haken.png" alt="Haken"/></label>
     </div>
    
-   <button class="btn waves-effect waves-light" type="submit" name="action">Submit </Button>
     
   </form>
-
+</p>
   
 </div>
         

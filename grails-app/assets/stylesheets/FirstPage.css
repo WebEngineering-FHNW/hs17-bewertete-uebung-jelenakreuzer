@@ -174,7 +174,7 @@ nav ul li a.active {
 
 #main article {
     display:block;
-    width:80%;
+    width:100%;
     background:#FFFFFF;
     margin:0em;
     padding:0.5em;
@@ -234,6 +234,7 @@ h2 small {
   position:relative; 
   margin-bottom:45px; 
 }
+<<<<<<< HEAD
 
 .nebeneinander {			  { 
   display:inline;
@@ -241,6 +242,8 @@ h2 small {
 }
 
 
+=======
+>>>>>>> parent of 570fcb8... Kontaktformular lauffähig
 input 				{
   font-size:18px;
   padding:10px 10px 10px 5px;
@@ -343,91 +346,6 @@ input:focus ~ .highlight {
 	from { background:#006400; }
   to 	{ width:0; background:transparent; }
 }
-
-
-
-/* Materialize BUTTONS */
-/* EXTERNAL Source: http://materializecss.com/buttons.html */
-
-
-button {
-  overflow: visible;
-}
-
-
-button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"] {
-  -webkit-appearance: button;
-  /* 2 */
-  cursor: pointer;
-  /* 3 */
-}
-.btn, .btn-large {
-  text-decoration: none;
-  color: #fff;
-  background-color: #26a69a;
-  text-align: center;
-  letter-spacing: .5px;
-  -webkit-transition: .2s ease-out;
-  transition: .2s ease-out;
-  cursor: pointer;
-}
-
-.btn:hover, .btn-large:hover {
-  background-color: #2bbbad;
-}
-.btn, .btn-large,
-.btn-flat {
-  border: none;
-  border-radius: 2px;
-  display: inline-block;
-  height: 36px;
-  line-height: 36px;
-  padding: 0 2rem;
-  text-transform: uppercase;
-  vertical-align: middle;
-  -webkit-tap-highlight-color: transparent;
-}
-
-/**
- * Re-set default cursor for disabled elements.
- */
-button[disabled],
-html input[disabled] {
-  cursor: default;
-}
-
-/**
- * Remove inner padding and border in Firefox 4+.
- */
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-  border: 0;
-  padding: 0;
-}
-
-.waves-effect {
-  position: relative;
-  cursor: pointer;
-  display: inline-block;
-  overflow: hidden;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  -webkit-tap-highlight-color: transparent;
-  vertical-align: middle;
-  z-index: 1;
-  -webkit-transition: .3s ease-out;
-  transition: .3s ease-out;
-}
-.waves-effect.waves-light .waves-ripple {
-  background-color: rgba(255, 255, 255, 0.45);
-}
-
-
 
 
 /* Footer */
