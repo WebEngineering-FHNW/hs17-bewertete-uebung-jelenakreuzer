@@ -46,8 +46,7 @@ p {
     font-weight:100;
     color:#2F2D2C;
     margin:0em; /* äusserer Abstand */
-    padding-left: 0.25 em;
-    padding-right: 0.25 em;
+
     text-align:justify; /*Blocksatz*/
 }
 
@@ -62,8 +61,7 @@ p.Beschreibung {
     font-weight:100;
     color:#2F2D2C;
     margin:0em; /* äusserer Abstand */
-    padding-left: 2.5em
-    padding-right: 2.5em
+
     text-align:justify; /*Blocksatz*/
 }
 
@@ -296,8 +294,7 @@ div Beschreibung{
     font-weight:100;
     color:#2F2D2C;
     margin:0em; /* äusserer Abstand */
-    padding-left: 2.5em
-    padding-right: 2.5em
+
     text-align:justify; /*Blocksatz*/    
 }
 
@@ -575,8 +572,7 @@ footer ul li a {
   float: left;
 }
 
-@media screen and (max-width:725px) {
-    
+@media screen and (max-width:725px) {    
      .ProduzentenBild img{
     height: auto;
     width: 50em;
