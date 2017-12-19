@@ -39,33 +39,33 @@
   <h2>Kontaktformular</h2>
   
   <form>
-    
+    <br>
     <div class="group">      
       <input type="text" minlength="2" required>
       <span class="highlight"></span>
       <span class="bar"></span>
-      <label>Vorname</label>
-    </div>
+      <label>Vorname <img class="Vorname" img src="/assets/haken.png" alt="Haken"/></label>      
+    </div>    
 
     <div class="group">      
       <input type="text" minlength="2" required>
       <span class="highlight"></span>
       <span class="bar"></span>
-      <label>Nachname</label>
+      <label>Nachname <img class="Vorname" img src="/assets/haken.png" alt="Haken"/></label>
     </div>
     
     <div class="group">      
-      <input type="mail" required>
+      <input type="email" required>
       <span class="highlight"></span>
       <span class="bar"></span>
-      <label>E-Mail Adresse</label>
+      <label>E-Mail Adresse <img class="Vorname" img src="/assets/haken.png" alt="Haken"/></label>
     </div>
     
     <div class="group">      
       <input type="text" required>
       <span class="highlight"></span>
       <span class="bar"></span>
-      <label>Ihre Nachricht</label>
+      <label>Ihre Nachricht <img class="Vorname" img src="/assets/haken.png" alt="Haken"/></label>
     </div>
    
     

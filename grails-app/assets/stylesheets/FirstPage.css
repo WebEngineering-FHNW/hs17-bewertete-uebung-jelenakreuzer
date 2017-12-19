@@ -114,13 +114,17 @@ header {
 header img {
     max-height:200px;   
     max-width: 200px;
-    vertical-align: center;
-    
+    vertical-align: center;    
+}
+
+form img {
+    max-height:20px;   
+    max-width:20px;
+    vertical-align: center;    
 }
 
 img.BildCenter{
-    display:block;
-    
+    display:block;    
 }
 
 /* Navigation */
@@ -254,11 +258,24 @@ label 				 {
   -webkit-transition:0.2s ease all;
 }
 
+
+
+
 /* active state */
 input:focus ~ label, input:valid ~ label 		{
   top:-20px;
   font-size:14px;
   color:#006400;
+}
+
+input:focus ~ label, input:invalid ~ label 		{
+  top:-20px;
+  font-size:14px;
+  color:black;
+}
+
+input:focus ~ label img, input:invalid ~ label img 		{
+    display:none;
 }
 
 /* BOTTOM BARS */
@@ -285,6 +302,8 @@ input:focus ~ label, input:valid ~ label 		{
 input:focus ~ .bar:before, input:focus ~ .bar:after {
   width:50%;
 }
+
+
 
 /* HIGHLIGHTER */
 .highlight {
