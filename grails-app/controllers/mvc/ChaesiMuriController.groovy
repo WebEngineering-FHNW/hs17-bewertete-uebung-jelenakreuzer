@@ -18,11 +18,6 @@ class ChaesiMuriController {
         }
     }
     
-        def Kontakt(){
-        withFormat{
-            html{
-                render(view: 'Kontakt')}            
-        }
-    }
+
     
 }
