@@ -43,10 +43,10 @@
     </article>
     
     
-    <img src="/assets/Produzent1.jpg" alt="Produzent1" class="Produzenten"/>
-    
     <div class="container">
-  
+     
+    <img src="/assets/Produzent1.jpg" alt="Produzent1" class="Produzenten"/>
+
     
     <div class="nebeneinander">      
             <h2><small>Walter Meier, Niederwil AG</small></h2>

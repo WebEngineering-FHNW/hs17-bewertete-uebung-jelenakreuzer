@@ -75,11 +75,6 @@ img.BildCenter{
     margin-right: auto;
 }
 
-img.Produzenten{
-    margin-left: 10%;
-    max-height:500px;
-}
-
 a { /*Hyperlink*/
     text-decoration: none;    
 }
@@ -181,10 +176,9 @@ nav ul li a.active {
     display:block;
     width:80%;
     background:#FFFFFF;
-    margin:0 auto 0;
+    margin:0em;
     padding:0.5em;
     text-align:center;
-    
 }
 
 #main article img {
@@ -241,12 +235,9 @@ h2 small {
   margin-bottom:45px; 
 }
 
-.nebeneinander {
-    margin-left: 60%
-    margin-right: 10%;
-    max-height: 500px;
-}
-
+.nebeneinander {			  { 
+  display:inline;
+  margin-bottom:45px; 
 }
 
 
