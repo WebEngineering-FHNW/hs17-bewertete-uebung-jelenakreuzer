@@ -26,7 +26,7 @@
             <li><a href="Aktuelles">Aktuelles</a></li> 
             <li><a href="Produzenten" class="active">Unsere Produzenten</a></li>
              <li><a href="Kontakt">Kontakt</a></li>  
-             <li><a href="chaesiMuri/Beschreibung" class="active">Beschreibung WEBEC</a></li>   
+             <li><a href="chaesiMuri/Beschreibung">Beschreibung WEBEC</a></li>   
         </ul>  
     </nav>
     
@@ -59,6 +59,7 @@
 
     </div>    
   </div> 
+
 
 
     </section>

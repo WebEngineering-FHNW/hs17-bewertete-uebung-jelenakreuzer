@@ -23,39 +23,27 @@
     <nav class="nav">
         <ul>
             <li><a href="index">Über uns</a></li>
-            <li><a href="Aktuelles">Aktuelles</a></li> 
-            <li><a href="Produzenten" class="active">Unsere Produzenten</a></li>
+            <li><a href="Aktuelles" class="active">Aktuelles</a></li> 
+            <li><a href="Produzenten">Unsere Produzenten</a></li>
              <li><a href="Kontakt">Kontakt</a></li>  
-             <li><a href="chaesiMuri/Beschreibung" class="active">Beschreibung WEBEC</a></li>   
+             <li><a href="Beschreibung">Beschreibung WEBEC</a></li>   
         </ul>  
     </nav>
     
    <section id="main">   
-    
-        <article>
-            <h2>Unsere Produzenten</h2>
-            <p>
-               Ganz nach unserem Motto "regional, saisonal" werden wir von unseren Produzenten beliefert. Wir legen grossen Wert darauf, das wir mit Produzenten aus der Region zusammenarbeiten und uns gegenseitig unterstützen.
-               
-               Hier möchten wir Ihnen mit Stolz unsere Produzenten vorstellen:
-               
-            </p>
-    </article>
+
     
     
     <br>
 
     <div id="flex-container">  
         <div class="ProduzentenBild">
-        <img src="/assets/Produzent1.jpg" alt="logo"/>
+        <img src="/assets/Energiepreis.jpg" alt="logo"/>
         </div>
         
         <div class="ProduzentenText">
-        <h2>Walter Meier aus Muri </h2> 
-        <p>Walter Meier aus Muri liefert uns schon seit vielen Jahren diverse Produkte von seinen Braun Swiss Kühen. Auf seinem Hof wird die Milch selber noch verarbeitet und direkt vermarktet. Auch die Chäsi Muri kommt in        den Genuss seiner Produkte.</p><br>
-        <p class="Fett">Produkte:</p>
-        <p>- Rohmilchkäse</p>
-        <p>- Joghurt</p>
+        <h2>Auszeichnung Energiepreis Muri 2016</h2> 
+        <p>Mit Freude durften wir kürzlich den Energiepreis Muri 2016 entgegen nehmen! Neben den Vorteilen beim kurzen Transport der Lebensmittel wurde auch der grosse Wert des Verkauf in der Chäsi Wey für unsere Kundinnen und Kunden durch die Jury gelobt. Wir freuen uns sehr über diesen Preis und sagen Danke!
 
     </div>    
   </div> 

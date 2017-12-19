@@ -24,7 +24,7 @@
         <ul>
             <li><a href="index">Über uns</a></li>
             <li><a href="Aktuelles">Aktuelles</a></li> 
-            <li><a href="Produzenten" class="active">Unsere Produzenten</a></li>
+            <li><a href="Produzenten">Unsere Produzenten</a></li>
              <li><a href="Kontakt">Kontakt</a></li>  
              <li><a href="chaesiMuri/Beschreibung" class="active">Beschreibung WEBEC</a></li>   
         </ul>  
@@ -33,32 +33,26 @@
    <section id="main">   
     
         <article>
-            <h2>Unsere Produzenten</h2>
+            <h2>Beschreibung meines Projekts</h2> 
             <p>
-               Ganz nach unserem Motto "regional, saisonal" werden wir von unseren Produzenten beliefert. Wir legen grossen Wert darauf, das wir mit Produzenten aus der Region zusammenarbeiten und uns gegenseitig unterstützen.
+               Mein Plan, die Webseite mit Wordpress umzusetzen, musste ich relativ schnell aufgeben, da dies schlichtweg mit meinen Fähigkeiten nicht möglich war. Ich habe mich dann für eine statische HTML/CSS Webseite entschieden, die ich auch so umgesetzt habe.
+               Da dies meine erste Webseite ist, die ich erstellt habe, habe ich mich zuerst an ein Youtube Tutorial gesetzt, dies habe ich dann auch Lukas Meyer weiterempfohlen (falls Ihnen gewisse Ähnlichkeiten zwischen unseren Webseiten auffallen), da ich es als sehr hilfreich empfunden habe. Dieses Tutorial hat mir in kurzer Zeit geholfen, einen doch recht schönen Grundstein für mein weiteres Projekt zu legen und hat mich motiviert. Auf dieser Basis habe ich den Rest dann entwickelt und weiter ausgebaut. Diverse Dinge aus dem bestehenden Tutorial-Code habe ich selber noch angepasst.
                
-               Hier möchten wir Ihnen mit Stolz unsere Produzenten vorstellen:
+               Auf meiner Webseite zuoberst zentriert befindet sich das Logo der Chäsi Muri. Dies habe ich mit einem Home-Link versehen, man kommt mittels Klick darauf also immer wieder auf die Startseite zurück.
+               Als zweites habe ich eine Navigation eingebaut. Man kann damit über die verschiedenen Menüpunkte navigieren und erkennt immer, auf welcher Seite man sich befindet und welche Seite man gerade mit der Maus anwählen könnte (Hoover bei Mouseover).
+               
+               Es gibt drei Typen von Seiten: Der erste Typ ist der Typ der Startseite, also "Über uns". Dort ist ein zentriertes Bild ersichtlich mit Text darunter. Der zweite Seitentyp ist derjenige von "Unsere Produzenten". Der dritte Typ ist das Kontaktformular. Das Formular enthält eine komplette Echtzeit Input-Validierung. Sobald ein Input Feld als valide befunden wird, wird ein grünes Häkchen eingeblendet. Mittels "absenden" wird ein E-Mail mit dem Inhalt des zuvor ausgefüllten Formulars an mich gesendet.
+               
+               Den Footer, der sich zu unterst befindet habe ich so platziert, damit er auch dort bleibt, da er sonst im Bild stört.
+               
+               Im letzten Menüpunkt befindet sich noch die Beschreibung dieses Projekts, welche Sie gerade erfolgreich gemeistert haben! :)
+               
+               
+               
                
             </p>
     </article>
-    
-    
-    <br>
 
-    <div id="flex-container">  
-        <div class="ProduzentenBild">
-        <img src="/assets/Produzent1.jpg" alt="logo"/>
-        </div>
-        
-        <div class="ProduzentenText">
-        <h2>Walter Meier aus Muri </h2> 
-        <p>Walter Meier aus Muri liefert uns schon seit vielen Jahren diverse Produkte von seinen Braun Swiss Kühen. Auf seinem Hof wird die Milch selber noch verarbeitet und direkt vermarktet. Auch die Chäsi Muri kommt in        den Genuss seiner Produkte.</p><br>
-        <p class="Fett">Produkte:</p>
-        <p>- Rohmilchkäse</p>
-        <p>- Joghurt</p>
-
-    </div>    
-  </div> 
 
 
     </section>

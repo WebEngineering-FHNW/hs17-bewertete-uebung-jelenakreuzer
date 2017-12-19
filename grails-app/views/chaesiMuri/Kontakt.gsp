@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <title>Webseite</title>
     <link rel="stylesheet" href="/assets/FirstPage.css" type="text/css" />
     <link rel="shortcut icon" type="image/png" href="/assets/logo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
 </head>
+<body id="kontaktseite" onload="document.kontaktformular.absender.focus();">
 <body>
    <section id="menubar">
        <ul>
@@ -24,10 +26,9 @@
         <ul>
             <li><a href="index">Über uns</a></li>
             <li><a href="Aktuelles">Aktuelles</a></li> 
-            <li><a href="index">Unsere Angebote</a></li>
-            <li><a href="index">Unsere Produzenten</a></li>
-            <li><a href="chaesiMuri/Kontakt" class="active">Kontakt</a></li>      
-            <li><a href="chaesiMuri/Beschreibung" class="active">Beschreibung WEBEC</a></li>    
+            <li><a href="Produzenten">Unsere Produzenten</a></li>
+            <li><a href="Kontakt" class="active">Kontakt</a></li>      
+            <li><a href="Beschreibung">Beschreibung WEBEC</a></li>    
         </ul>   
         
         
@@ -39,7 +40,10 @@
   
   <h2>Kontaktformular</h2>
   
-  <form>
+  <input type="hidden" name="empfaenger" value="jelena.93_@hotmail.com" />
+  <!-- EXTERNAL: Den Tipp für formular-chef.ch habe ich von Lukas Meyer erhalten--!>
+  <form class="form" id="kontaktformular" name="kontaktformular" action="http://www.formular-chef.de/fc.cgi"
+  method="post">
     <br>
     <div class="group">      
       <input type="text" minlength="2" required>
@@ -69,7 +73,7 @@
       <label>Ihre Nachricht <img class="Vorname" src="/assets/haken.png" alt="Haken"/></label>
     </div>
    
-       <button class="btn waves-effect waves-light" type="submit" name="action">Absenden</Button>
+       <button class="btn waves-effect waves-light" type="submit" value="Abschicken" name="action">Absenden</Button>
   </form>
 
 </div>
