@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
 </head>
 <body id="kontaktseite" onload="document.kontaktformular.absender.focus();">
-<body>
+
    <section id="menubar">
        <ul>
            <li><a class="menubutton" href="#menu"><img src="/assets/menu.png" alt = "Menubutton" /></a></li>           
