@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Webseite</title>
     <link rel="stylesheet" href="/assets/FirstPage.css" type="text/css" />
+    <link rel="shortcut icon" type="image/png" img src="/assets/logo.png" href="/assets/logo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
 </head>
 <body>
@@ -35,6 +36,9 @@
             <h2>Unsere Produzenten</h2>
             <p>
                Ganz nach unserem Motto "regional, saisonal" werden wir von unseren Produzenten beliefert. Wir legen grossen Wert darauf, das wir mit Produzenten aus der Region zusammenarbeiten und uns gegenseitig unterstützen.
+               
+               Hier möchten wir Ihnen mit Stolz unsere Produzenten vorstellen:
+               
             </p>
         </article>
     </section>
@@ -42,12 +46,10 @@
     
     <footer>
         <ul>
-            <li>&copy; 2014 Jelena</li>
-            <li>Kontakt</li>
-            <li>Datenschutz</li>
-            <li>Impressum</li>           
-        </ul>
-        
+            <li>&copy; 2017 Chaesi Muri AG</li>
+            <li><a href="Kontakt">Kontakt</a></li> 
+            <li><a href="Kontakt">Öffnungszeiten</a></li>         
+        </ul>        
     </footer>
 </body>
 </html>
