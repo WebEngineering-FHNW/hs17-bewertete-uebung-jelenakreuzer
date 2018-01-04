@@ -38,4 +38,25 @@ Auf das Gesamtprojekt, da es meine erste Webseite ist. Besonders stolz bin ich a
 
 ## Project grading 
 
-< to be filled by lecturer>
+Description html not as static file but as page in the app - but nice valid html and
+good use of semantic tags. Nice responsive design.
+The application works but has a broken link when going from "Produzenten" to "Beschreibung".
+
+Functionality:
+Navigation plus contact form (with validation). Site comes with visual display of the 
+current navigation point. 
+Since the application is more of a read-only site than a web application and has no 
+data management features, it scores lower in terms of provided functionality than others.
+Functionality is mainly the design with navigation and site structure.
+
+Engineering:
+Commit log is ok (even though you should have started earlier with your commits).
+Tests are missing. HTML is well done. Comments, naming, etc. is ok.
+The views have some duplication that could have been factored out in 
+templates or taglibs.
+
+Congratulations to your first web presence!
+
+Total Grade: 5.1
+
+
